@@ -1,4 +1,21 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+
+:root {
+  --regular-pink: #FF8DCB;
+  --nice-pink: #FFC2E6;
+  --light-pink: #FFF1F7;
+  --bright-red: #ff0070;
+  --dark-blue: #000028;
+  --dark-gray: #353430;
+
+  --regular-font-size: 18px;
+  --regular-line-height: 100%;
+  --basic-gap: 10px;
+  --decoration-gap: clamp(10px , 2.65vw , 20px);
+  --min-block-size: 668px;
+  --header-margin-inline-start: min(10px , 20px - 2.6vw);
+  --section-child-margin: 40px;
+  --main-font-family: "IBM Plex Mono", "Arial", sans-serif;
+  --rec-position: 30px;
+  --base-margin-block-start: 50px;
+}
+

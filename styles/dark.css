@@ -1,12 +1,63 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
-:root.theme-dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+:root.theme-dark {  
+    --page-bg-color: var(--dark-blue);
+    --accent-color: var(--bright-red);
+    --title-color:  #db00ff;
+    --header-text-bg-color: var(--bright-red);
+    --header_text-color: var(--dark-blue);
+    --question-bg-color: var(--dark-blue);
+    --question-color: var(--bright-red);
+    --answer-title-bg-color: var(--bright-red);
+    --answer-title-color: var(--dark-blue);
+    --answer-text-bg-color: var(--dark-blue);
+    --answer-text-color: #f1b2ce;
+    --advice-title-bg-color: var(--bright-red);
+    --advice-title-color: var(--dark-blue);
+    --button-color: var(--bright-red);
+    --rec-color: var(--bright-red);
+    --border-color-opacity: #FF007066;
+    --background-image:  url("../images/cover-image-dark.png");
+    --decorative-color: var(--bright-red);
+
+  }
+  
+  .theme-dark .header__theme-menu-span_type_dark::before {
+    display: inline-block;
+  }
+  
+  .theme-dark .header__theme-menu-span_type_dark::after {
+    display: inline-block;
+  }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg-color: var(--dark-blue);
+    --accent-color: var(--bright-red);
+    --title-color:  #db00ff;
+    --header-text-bg-color: var(--bright-red);
+    --header-text-color: var(--dark-blue);
+    --question-bg-color: var(--dark-blue);
+    --question-color: var(--bright-red);
+    --answer-title-bg-color: var(--bright-red);
+    --answer-title-color: var(--dark-blue);
+    --answer-text-bg-color: var(--dark-blue);
+    --answer-text-color: #f1b2ce;
+    --advice-title-bg-color: var(--bright-red);
+    --advice-title-color: var(--dark-blue);
+    --button-color: var(--bright-red);
+    --rec-color: var(--bright-red);
+    --border-color-opacity: #FF007066;
+    --background-image:  url("../images/cover-image-dark.png");
+    --decorative-color: var(--bright-red);
+  }
+
+  .header__theme-menu-span_type_dark::before {
+    display: inline-block;
+  }
+  
+  .header__theme-menu-span_type_dark::after {
+    display: inline-block;
+  }
 }
+
+

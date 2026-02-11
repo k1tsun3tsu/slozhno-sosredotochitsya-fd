@@ -1,12 +1,51 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --accent-color: var(--regular-pink);
+  --title-color: var(--nice-pink);
+  --page-bg-color: var(--light-pink);
+  --header-text-bg-color: var(--regular-pink);
+  --header-text-color: var(--dark-gray);
+  --question-bg-color:  var(---light-pink);
+  --question-color:  var(--dark-gray);
+  --answer-title-bg-color: var(--regular-pink);
+  --answer-title-color: var(--dark-gray);
+  --answer-text-bg-color: var(--light-pink);
+  --answer-text-color: var(--dark-gray);
+  --advice-title-bg-color:  var(--regular-pink) ;
+  --advice-title-color: var(--dark-gray);
+  --button-color: var(--dark-gray);
+  --border-color-opacity: #32312D66;
+  --background-image:  url("../images/cover-image-light.png");
+  --decorative-color: var(--dark-gray);
+}
+
+.theme-light .header__theme-menu-span_type_dark::before {
+  display: none;
+}
+
+.theme-light .header__theme-menu-span_type_dark::after {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: var(--regular-pink);
+    --title-color: var(--nice-pink);
+    --page-bg-color: var(--light-pink);
+    --header-text-bg-color: var(--regular-pink);
+    --header-text-color: var(--dark-gray);
+    --question-bg-color:  var(---light-pink);
+    --question-color:  var(--dark-gray);
+    --answer-title-bg-color: var(--regular-pink);
+    --answer-title-color: var(--dark-gray);
+    --answer-text-bg-color: var(--light-pink);
+    --answer-text-color: var(--dark-gray);
+    --advice-title-bg-color:  var(--regular-pink) ;
+    --advice-title-color: var(--dark-gray);
+    --button-color: var(--dark-gray);
+    --border-color-opacity: #32312D66;
+    --background-image:  url("../images/cover-image-light.png");
+    --decorative-color: var(--dark-gray);
+
+  }
 }
