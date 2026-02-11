@@ -1,4 +1,3 @@
-
 :root.theme-dark {  
     --page-bg-color: var(--dark-blue);
     --accent-color: var(--bright-red);
@@ -20,7 +19,7 @@
     --decorative-color: var(--bright-red);
 
   }
-  
+
   .theme-dark .header__theme-menu-span_type_dark::before {
     display: inline-block;
   }
