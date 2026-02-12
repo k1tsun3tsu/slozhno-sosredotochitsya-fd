@@ -1,21 +1,12 @@
-
 :root.theme-light {
+  --page-bg-color: var(--light-pink);
   --accent-color: var(--regular-pink);
   --title-color: var(--nice-pink);
-  --page-bg-color: var(--light-pink);
-  --header-text-bg-color: var(--regular-pink);
-  --header-text-color: var(--dark-gray);
-  --question-bg-color:  var(---light-pink);
-  --question-color:  var(--dark-gray);
-  --answer-title-bg-color: var(--regular-pink);
-  --answer-title-color: var(--dark-gray);
-  --answer-text-bg-color: var(--light-pink);
-  --answer-text-color: var(--dark-gray);
-  --advice-title-bg-color:  var(--regular-pink) ;
-  --advice-title-color: var(--dark-gray);
-  --button-color: var(--dark-gray);
-  --border-color-opacity: #32312D66;
-  --background-image:  url("../images/cover-image-light.png");
+  --title-text-bg-color: var(--regular-pink);
+  --subtitle-text-color: var(--dark-gray);
+  --text-color: var(--dark-gray);
+  --border-color-opacity: #32312d66;
+  --background-image: url("../images/cover-image-light.png");
   --decorative-color: var(--dark-gray);
 }
 
@@ -29,23 +20,22 @@
 
 @media (prefers-color-scheme: light) {
   :root {
+    --page-bg-color: var(--light-pink);
     --accent-color: var(--regular-pink);
     --title-color: var(--nice-pink);
-    --page-bg-color: var(--light-pink);
-    --header-text-bg-color: var(--regular-pink);
-    --header-text-color: var(--dark-gray);
-    --question-bg-color:  var(---light-pink);
-    --question-color:  var(--dark-gray);
-    --answer-title-bg-color: var(--regular-pink);
-    --answer-title-color: var(--dark-gray);
-    --answer-text-bg-color: var(--light-pink);
-    --answer-text-color: var(--dark-gray);
-    --advice-title-bg-color:  var(--regular-pink) ;
-    --advice-title-color: var(--dark-gray);
-    --button-color: var(--dark-gray);
-    --border-color-opacity: #32312D66;
-    --background-image:  url("../images/cover-image-light.png");
+    --title-text-bg-color: var(--regular-pink);
+    --subtitle-text-color: var(--dark-gray);
+    --text-color: var(--dark-gray);
+    --border-color-opacity: #32312d66;
+    --background-image: url("../images/cover-image-light.png");
     --decorative-color: var(--dark-gray);
+  }
 
+  .theme-light .header__theme-menu-span_type_dark::before {
+    display: none;
+  }
+
+  .theme-light .header__theme-menu-span_type_dark::after {
+    display: none;
   }
 }

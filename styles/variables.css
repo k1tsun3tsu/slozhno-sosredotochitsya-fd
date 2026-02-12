@@ -1,21 +1,27 @@
-
 :root {
-  --regular-pink: #FF8DCB;
-  --nice-pink: #FFC2E6;
-  --light-pink: #FFF1F7;
+  --regular-pink: #ff8dcb;
+  --medium-pink: #f1b2ce;
+  --nice-pink: #ffc2e6;
+  --light-pink: #fff1f7;
   --bright-red: #ff0070;
   --dark-blue: #000028;
   --dark-gray: #353430;
 
+  --main-font-family: "IBM Plex Mono", monospace;
   --regular-font-size: 18px;
   --regular-line-height: 100%;
-  --basic-gap: 10px;
-  --decoration-gap: clamp(10px , 2.65vw , 20px);
+  --decoration-gap: clamp(10px, 2.65vw, 20px);
   --min-block-size: 668px;
-  --header-margin-inline-start: min(10px , 20px - 2.6vw);
-  --section-child-margin: 40px;
-  --main-font-family: "IBM Plex Mono", "Arial", sans-serif;
+  --header-margin-inline-start: min(10px, 20px - 2.6vw);
   --rec-position: 30px;
-  --base-margin-block-start: 50px;
-}
 
+  --page-bg-color: var(--dark-blue);
+  --accent-color: var(--bright-red);
+  --title-color: #db00ff;
+  --title-text-bg-color: var(--bright-red);
+  --subtitle-text-color: var(--dark-blue);
+  --text-color: var(--medium-pink);
+  --border-color-opacity: #ff007066;
+  --background-image: url("../images/cover-image-dark.png");
+  --decorative-color: var(--bright-red);
+}
