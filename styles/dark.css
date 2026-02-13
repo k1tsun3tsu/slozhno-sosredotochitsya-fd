@@ -9,3 +9,11 @@
   --background-image: url("../images/cover-image-dark.png");
   --decorative-color: var(--bright-red);
 }
+
+.theme-dark .header__theme-menu-span_type_dark::before {
+  display: block;
+}
+
+.theme-dark .header__theme-menu-span_type_dark::after {
+  display: block;
+}
