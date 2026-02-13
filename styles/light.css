@@ -31,11 +31,11 @@
     --decorative-color: var(--dark-gray);
   }
 
-  .theme-light .header__theme-menu-span_type_dark::before {
+  .header__theme-menu-span_type_dark::before {
     display: none;
   }
 
-  .theme-light .header__theme-menu-span_type_dark::after {
+  .header__theme-menu-span_type_dark::after {
     display: none;
   }
 }
